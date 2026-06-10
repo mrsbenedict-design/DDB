@@ -49,3 +49,23 @@ document.querySelectorAll('.service-card, .tcard, .about-card, .about-num').forE
   el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
   observer.observe(el);
 });
+
+const waBtn = document.getElementById('waBtn');
+const waPopup = document.getElementById('waPopup');
+const waClose = document.getElementById('waClose');
+
+waBtn.addEventListener('click', () => {
+  const isOpen = waPopup.classList.toggle('open');
+  waPopup.setAttribute('aria-hidden', !isOpen);
+});
+waClose.addEventListener('click', (e) => {
+  e.stopPropagation();
+  waPopup.classList.remove('open');
+  waPopup.setAttribute('aria-hidden', 'true');
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('#waWidget')) {
+    waPopup.classList.remove('open');
+    waPopup.setAttribute('aria-hidden', 'true');
+  }
+});

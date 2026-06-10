@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vitalwealth.in/sitemap.xml
