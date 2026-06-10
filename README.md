@@ -4,7 +4,7 @@ A static single-page website for an exercise and financial consultancy business.
 
 ## Live Site
 
-Hosted via GitHub Pages.
+[https://mrsbenedict-design.github.io/DDB/](https://mrsbenedict-design.github.io/DDB/)
 
 ## Tech Stack
 
