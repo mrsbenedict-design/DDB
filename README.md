@@ -6,6 +6,8 @@ A static single-page website for an exercise and financial consultancy business.
 
 [https://mrsbenedict-design.github.io/DDB/](https://mrsbenedict-design.github.io/DDB/)
 
+![VitalWealth Consultancy](screenshot.png)
+
 ## Tech Stack
 
 - Plain HTML, CSS, and vanilla JavaScript — no build tools, frameworks, or package managers.
